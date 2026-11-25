@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LabIFMaker Birigui - IFSP</title>
+  <meta name="description" content="Laboratório maker do IFSP Birigui: impressão 3D, corte a laser, robótica e eletrônica para o seu projeto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="#inicio"><img src="IMGs/logo.png" alt="Logo do LabIFMaker">IFSP BIRIGUI</a>
+    <nav>
+      <a href="#para-que">O laboratório</a>
+      <a href="#equipamentos">Equipamentos</a>
+      <a href="#acao">Em ação</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#participar">Participar</a>
+      <a href="#equipe">Equipe</a>
+    </nav>
+    <a class="botao" href="#contato">Contato</a>
+    <button class="menu-botao" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <section id="inicio" class="hero">
+    <img class="hero-logo" src="IMGs/logo-completa-branca.png" alt="LabIFMaker Birigui">
+    <h1>Aqui você <span id="palavra">imprime</span> a sua ideia</h1>
+    <p>O laboratório maker do IFSP Birigui: máquinas e equipe para tirar o seu projeto do papel.</p>
+    <div class="botoes">
+      <a class="botao" href="#equipamentos">Conheça os equipamentos</a>
+      <a class="botao vazado" href="#contato">Fale com a equipe</a>
+    </div>
+  </section>
+
+  <section id="para-que">
+    <h2 class="titulo">Você sabia que o seu campus tem um laboratório maker?</h2>
+    <p class="intro">Muita gente passa pelo IFSP sem saber das máquinas que estão à disposição. O LabIFMaker existe para apoiar o seu projeto, do primeiro protótipo até a apresentação final.</p>
+    <div class="grade tres">
+      <div class="cartao">
+        <span class="numero">01</span>
+        <h3>Iniciação científica</h3>
+        <p>Prototipe suportes, peças e bases para o seu experimento sem depender de material pronto.</p>
+      </div>
+      <div class="cartao">
+        <span class="numero">02</span>
+        <h3>Competições</h3>
+        <p>Construa robôs e dispositivos para competir, com estrutura impressa ou cortada e placas como ESP32 e Arduino no comando.</p>
+      </div>
+      <div class="cartao">
+        <span class="numero">03</span>
+        <h3>Trabalho de conclusão de curso</h3>
+        <p>Dê forma ao protótipo do seu TCC com impressão 3D, corte a laser e a bancada de eletrônica.</p>
+      </div>
+    </div>
+    <div class="historia">
+      <div><strong>2022</strong><p>O MCTI e o IFSP lançam o projeto LabIFMaker, que leva espaços maker a cinco câmpus, entre eles Birigui. <a href="https://repositorio.mctic.gov.br/bitstream/mctic/4852/1/2022_12_01_boletim_diario_mcti.pdf">Fonte</a></p></div>
+      <div><strong>14/04/2023</strong><p>Inauguração do LabIFMaker e do Laboratório de Ações Étnico-Raciais Nilo Peçanha, no câmpus. <a href="https://sites.google.com/view/labifmaker-bri/">Fonte</a></p></div>
+    </div>
+  </section>
+
+  <section id="equipamentos" class="claro">
+    <h2 class="titulo">O que cada equipamento faz</h2>
+    <p class="intro">Veja como as máquinas do laboratório podem entrar no seu projeto.</p>
+
+    <article class="linha">
+      <div class="fotos duas">
+        <img src="IMGs/impressora-3d-1.jpg" alt="Impressora 3D de estrutura aberta" loading="lazy">
+        <img src="IMGs/impressora-3d-2.jpg" alt="Impressora 3D fechada com cantos azuis" loading="lazy">
+      </div>
+      <div class="texto">
+        <h3>Impressão 3D</h3>
+        <div class="tags"><span>PLA</span><span>PETG</span><span>Peças sob medida</span></div>
+        <p>Você modela a peça e o laboratório imprime em filamento. A escolha do material depende do que a peça precisa aguentar, como a temperatura: há PLA, PETG e outros. O laboratório mantém filamentos novos nas prateleiras e um armário com filamentos para reutilização.</p>
+      </div>
+    </article>
+
+    <article class="linha inversa">
+      <div class="fotos">
+        <img src="IMGs/laser.jpg" alt="Máquina de corte a laser" loading="lazy">
+      </div>
+      <div class="texto">
+        <h3>Corte a laser</h3>
+        <div class="tags"><span>Acrílico</span><span>Protótipos</span><span>Caixas e bases</span></div>
+        <p>Corta acrílico com precisão nas dimensões do seu projeto: bases de protótipos, caixas e outros sólidos. Quando a peça precisa de outras características, a impressão 3D entra no lugar.</p>
+      </div>
+    </article>
+
+    <article class="linha">
+      <div class="fotos duas">
+        <img src="IMGs/robotica.jpg" alt="Materiais de robótica no laboratório" loading="lazy">
+        <img src="IMGs/bancada-ferramentas-1.jpg" alt="Bancada de ferramentas e eletrônica" loading="lazy">
+      </div>
+      <div class="texto">
+        <h3>Robótica e eletrônica</h3>
+        <div class="tags"><span>ESP32</span><span>Arduino</span><span>Robôs de corrida</span></div>
+        <p>Placas microcontroladas como ESP32 e Arduino comandam os robôs, e muitos alunos usam o material de robótica do laboratório para construir os robôs de competição. A bancada tem as ferramentas para montar e testar o seu circuito. O limite é a imaginação.</p>
+      </div>
+    </article>
+
+    <article class="linha inversa">
+      <div class="fotos duas">
+        <img src="IMGs/banner.jpg" alt="Impressora de banner" loading="lazy">
+        <img src="IMGs/estampar.jpg" alt="Máquina de estampar" loading="lazy">
+      </div>
+      <div class="texto">
+        <h3>Banner e estampa</h3>
+        <div class="tags"><span>Divulgação</span><span>Estampagem</span></div>
+        <p>A impressora de banner produz o material de divulgação do campus, como os banners dos trabalhos apresentados na Semana Nacional de Ciência e Tecnologia. A máquina de estampar completa a lista para quem quer personalizar tecidos.</p>
+      </div>
+    </article>
+
+    <h3 class="subtitulo">Estrutura de apoio</h3>
+    <div class="grade tres">
+      <figure><img src="IMGs/bancada-computadores.jpg" alt="Bancada de computadores" loading="lazy"><figcaption>Bancada de computadores</figcaption></figure>
+      <figure><img src="IMGs/filamentos-1.jpg" alt="Prateleiras com filamentos novos" loading="lazy"><figcaption>Filamentos novos nas prateleiras</figcaption></figure>
+      <figure><img src="IMGs/filamentos-reuso.jpg" alt="Armário com filamentos para reutilização" loading="lazy"><figcaption>Armário de filamentos para reutilizar</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="acao">
+    <h2 class="titulo">O laboratório em ação</h2>
+    <div class="grade dois">
+      <figure>
+        <video muted loop playsinline controls preload="metadata" poster="IMGs/poster-impressora.jpg"><source src="VIDEOS/impressora-3d.mp4" type="video/mp4"></video>
+        <figcaption>Impressora 3D funcionando</figcaption>
+      </figure>
+      <figure>
+        <video muted loop playsinline controls preload="metadata" poster="IMGs/poster-laser.jpg"><source src="VIDEOS/corte-laser.mp4" type="video/mp4"></video>
+        <figcaption>Corte a laser em placa de acrílico</figcaption>
+      </figure>
+    </div>
+    <h3 class="subtitulo">O espaço, as visitas e as oficinas</h3>
+    <div class="carrossel">
+      <img src="IMGs/espaco-2.jpg" alt="Vista geral do laboratório" loading="lazy">
+      <img src="IMGs/bancada-ferramentas-2.jpg" alt="Bancada de eletrônica com osciloscópio" loading="lazy">
+      <img src="IMGs/filamentos-2.jpg" alt="Estante com filamentos" loading="lazy">
+      <img src="IMGs/atividade-1.jpg" alt="Grupo em volta da mesa do laboratório" loading="lazy">
+      <img src="IMGs/atividade-2.jpg" alt="Grupo reunido no laboratório" loading="lazy">
+      <img src="IMGs/atividade-3.jpg" alt="Alunos durante uma atividade" loading="lazy">
+      <img src="IMGs/atividade-4.jpg" alt="Visita ao laboratório" loading="lazy">
+      <img src="IMGs/atividade-5.jpg" alt="Oficina no laboratório" loading="lazy">
+      <img src="IMGs/atividade-6.jpg" alt="Alunos na mesa de trabalho" loading="lazy">
+      <img src="IMGs/atividade-7.jpg" alt="Aluno montando um projeto" loading="lazy">
+      <img src="IMGs/atividade-8.jpg" alt="Uso do scanner 3D" loading="lazy">
+    </div>
+  </section>
+
+  <section id="projetos" class="claro">
+    <h2 class="titulo">Coisas feitas pelo IFMAKER</h2>
+    <p class="intro">Peças, robôs e projetos que nasceram no laboratório.</p>
+    <div class="grade quatro">
+      <div class="cartao foto">
+        <img src="IMGs/peca-impressa.jpg" alt="Peça impressa em 3D" loading="lazy">
+        <h3>Peças impressas em 3D</h3>
+        <p>Objetos e componentes produzidos pela equipe e pelos alunos.</p>
+      </div>
+      <div class="cartao foto">
+        <img src="IMGs/robotica.jpg" alt="Materiais de robótica" loading="lazy">
+        <h3>Robôs de competição</h3>
+        <p>Robôs construídos com placas ESP32 e Arduino pelos alunos.</p>
+      </div>
+      <div class="cartao verde">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10v2h3v3a4 4 0 0 1-4 4h-.3A5 5 0 0 1 13 14.9V17h3v3H8v-3h3v-2.1A5 5 0 0 1 8.3 12H8a4 4 0 0 1-4-4V5h3V3zm-1 4v1a2 2 0 0 0 2 2V7H6zm12 0h-2v3a2 2 0 0 0 2-2V7z"/></svg>
+        <h3>Troféus em acrílico</h3>
+        <p>Os troféus do show de talentos do IFSP foram cortados a laser em acrílico pela equipe.</p>
+      </div>
+      <a class="cartao tracejado" href="#contato">
+        <h3>O seu projeto aqui</h3>
+        <p>Criou algo no laboratório? Conte para a equipe e ele pode aparecer nesta página.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="participar">
+    <h2 class="titulo">Como participar</h2>
+    <p class="intro">O laboratório é aberto à comunidade acadêmica do câmpus. Veja as três formas de começar.</p>
+    <div class="grade tres">
+      <div class="cartao">
+        <span class="numero">01</span>
+        <h3>Agendamento</h3>
+        <p>Reserve um horário e use os equipamentos depois do treinamento de segurança. Professores reservam pelo sistema Transparência IFSP-BRI; os demais podem combinar com a equipe pelo contato.</p>
+      </div>
+      <div class="cartao">
+        <span class="numero">02</span>
+        <h3>Minicursos e oficinas</h3>
+        <p>Participe de formações abertas à comunidade acadêmica. Acompanhe as novidades no Instagram <a href="https://www.instagram.com/ifsp.bri">@ifsp.bri</a>.</p>
+      </div>
+      <div class="cartao">
+        <span class="numero">03</span>
+        <h3>Projetos com o lab</h3>
+        <p>Proponha um projeto voltado a problemas locais de Birigui ou leve o seu: iniciação científica, competição ou TCC.</p>
+      </div>
+    </div>
+    <h3 class="subtitulo">Passo a passo para professores agendarem</h3>
+    <ol class="passos">
+      <li><p>Acesse o sistema <a href="http://transparencia.ghelt.com.br">Transparência IFSP-BRI</a>.</p></li>
+      <li><p>Faça o login clicando em "Entrar", no canto superior direito.</p><img src="IMGs/passo-2.jpg" alt="Botão Entrar do sistema" loading="lazy"></li>
+      <li><p>Informe seu e-mail e sua senha e clique em "Entrar".</p><img src="IMGs/passo-3.jpg" alt="Tela de login do sistema" loading="lazy"></li>
+      <li><p>Verifique a disponibilidade em Espaço de Aprendizagem &gt; Agenda &gt; Equipamento/Local.</p><img src="IMGs/passo-4.jpg" alt="Menu Agenda do sistema" loading="lazy"></li>
+      <li><p>Adicione o seu agendamento clicando em "Agendamento".</p><img src="IMGs/passo-5.jpg" alt="Menu Agendamento do sistema" loading="lazy"></li>
+      <li><p>Veja os seus agendamentos e clique em "+" para agendar.</p><img src="IMGs/passo-6.jpg" alt="Lista de agendamentos" loading="lazy"></li>
+      <li><p>Informe os dados do seu Innovation Day e envie.</p><img src="IMGs/passo-7.jpg" alt="Formulário de agendamento" loading="lazy"></li>
+    </ol>
+  </section>
+
+  <section id="regras" class="claro">
+    <h2 class="titulo">Regras de uso</h2>
+    <p class="intro">O essencial para usar o laboratório com segurança. O documento oficial é o Regimento Interno.</p>
+    <div class="grade quatro">
+      <div class="regra"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg><h3>Reserve antes</h3><p>Agende o horário pelo sistema ou combine com a equipe antes de ir ao laboratório.</p></div>
+      <div class="regra"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg><h3>Treinamento de segurança</h3><p>Os equipamentos são usados depois do treinamento de segurança.</p></div>
+      <div class="regra"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg><h3>Siga a equipe</h3><p>Cada máquina tem o seu jeito de operar. Peça ajuda e siga as orientações da equipe.</p></div>
+      <div class="regra"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg><h3>Cuide do espaço</h3><p>Use as máquinas e ferramentas com cuidado e deixe a bancada organizada para o próximo.</p></div>
+    </div>
+    <div class="botoes">
+      <a class="botao" href="https://drive.google.com/file/d/1BYBKiSFlLSO0YLWxHBwr9CGnJ6n0OMUN/view?usp=drive_link">Ler o Regimento Interno</a>
+      <a class="botao vazado escuro-texto" href="https://drive.google.com/file/d/1IYjedEpaeQ-NajwfCDOhRJxrJVGzsM6q/view?usp=sharing">Aprender Fazendo, da Rede Federal</a>
+    </div>
+  </section>
+
+  <section id="equipe">
+    <h2 class="titulo">Equipe atual</h2>
+    <p class="intro">Quem cuida do laboratório hoje.</p>
+    <div class="grade tres pessoas">
+      <figure><img src="IMGs/equipe-jonathan.jpg" alt="Jonathan Ferreira Gonçalves" loading="lazy"><figcaption>Jonathan Ferreira Gonçalves</figcaption></figure>
+      <figure><img src="IMGs/equipe-gustavo.jpg" alt="Gustavo Esperança Sanches" loading="lazy"><figcaption>Gustavo Esperança Sanches</figcaption></figure>
+      <figure><img src="IMGs/equipe-matheus.jpg" alt="Matheus Mendes Beati" loading="lazy"><figcaption>Matheus Mendes Beati</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="contato" class="escuro">
+    <div class="duas-colunas">
+      <div>
+        <h2>Venha criar com a gente</h2>
+        <p>Tem uma ideia, projeto ou dúvida sobre o laboratório? Fale com a equipe e conheça o espaço.</p>
+        <ul class="contatos">
+          <li><strong>E-mail</strong><a href="mailto:ifmaker.bri@gmail.com">ifmaker.bri@gmail.com</a></li>
+          <li><strong>Instagram</strong><a href="https://www.instagram.com/ifsp.bri">@ifsp.bri</a></li>
+          <li><strong>Site do câmpus</strong><a href="https://bri.ifsp.edu.br">bri.ifsp.edu.br</a></li>
+          <li><strong>Endereço</strong><span>Rua Pedro Cavalo, 709, Birigui - SP</span></li>
+        </ul>
+        <div class="botoes">
+          <a class="botao" href="http://transparencia.ghelt.com.br">Agendamento para professores</a>
+          <a class="botao vazado" href="https://drive.google.com/file/d/1BYBKiSFlLSO0YLWxHBwr9CGnJ6n0OMUN/view?usp=drive_link">Regimento interno</a>
+        </div>
+      </div>
+      <iframe title="Mapa do IFSP Birigui" loading="lazy" src="https://maps.google.com/maps?q=Rua+Pedro+Cavalo,+709,+Birigui+-+SP&amp;z=16&amp;output=embed"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <img class="marca" src="IMGs/logo-ifsp-birigui.jpg" alt="Instituto Federal de São Paulo, Câmpus Birigui">
+    <div class="redes">
+      <a href="https://www.facebook.com/ifspbirigui"><img src="IMGs/icone-facebook.jpg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/ifsp.bri"><img src="IMGs/icone-instagram.jpg" alt="Instagram"></a>
+      <a href="https://www.youtube.com/IFSPBirigui_oficial"><img src="IMGs/icone-youtube.jpg" alt="YouTube"></a>
+    </div>
+    <p>LabIFMaker Birigui - IFSP</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
